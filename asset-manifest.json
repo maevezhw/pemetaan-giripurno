@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pemetaan-giripurno/static/css/main.87e64beb.css",
+    "main.js": "/pemetaan-giripurno/static/js/main.70ca6b21.js",
+    "static/media/Basemap-darken.jpg": "/pemetaan-giripurno/static/media/Basemap-darken.640ab10d15caf0aabc22.jpg",
+    "static/media/Background Hidrogeologis.jpg": "/pemetaan-giripurno/static/media/Background Hidrogeologis.8b2247cc423a19e379ed.jpg",
+    "index.html": "/pemetaan-giripurno/index.html",
+    "main.87e64beb.css.map": "/pemetaan-giripurno/static/css/main.87e64beb.css.map",
+    "main.70ca6b21.js.map": "/pemetaan-giripurno/static/js/main.70ca6b21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e64beb.css",
+    "static/js/main.70ca6b21.js"
+  ]
+}
