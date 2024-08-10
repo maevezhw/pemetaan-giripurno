@@ -18,8 +18,9 @@ function Hutan() {
 
             <div className='col-span-2 flex items-center h-full px-20 py-20'>
                 <div>
-                    <h1 className='text-4xl font-bold text-dark-grey mt-3'>{slides[curr].title}</h1>
-                    <h2 className='text-lg font-medium text-dark-grey mt-6 w-[700px]'>{slides[curr].desc}</h2>
+                    <p className = 'flex text-black text-xs border rounded-2xl border-black mt-3 w-36 text-center h-8 items-center justify-center font-bold'>Kawasan Hutan</p>
+                    <h1 className='text-4xl font-bold text-dark-grey mt-5'>{slides[curr].title}</h1>
+                    <h2 className='text-lg font-medium text-dark-grey mt-6 w-[700px] text-justify'>{slides[curr].desc}</h2>
                 </div>
 
                 <img src={slides[curr].legend} className = "absolute bottom-6"></img>

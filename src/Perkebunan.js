@@ -8,22 +8,23 @@ function Perkebunan () {
 
     return (
         <div className = 'bg-kebun-bg px-44 py-6 h-lvh font-roboto'>
-            <div className = 'grid grid-cols-3 gap-2'>
-                <div className = 'col-span-2 mt-16'>
-                    <h1 className = 'text-4xl font-bold text-white mt-1'>Hasil Pertanian dan Perkebunan</h1>
-                    <h2 className = 'text-2xl font-normal text-white mt-3 mb-8'>Musim Tanam 1 2024</h2>
+            <div className = 'grid grid-cols-5 gap-2'>
+                <div className = 'col-span-4 mt-16'>
+                    <p className = 'flex text-white text-xs font-bold border rounded-2xl border-white mt-3 w-44 text-center h-8 items-center justify-center backdrop-blur-xl'>Pertanian dan Perkebunan</p>
+                    <h1 className = 'text-4xl font-bold text-white mt-5'>Hasil Pertanian dan Perkebunan</h1>
+                    <h2 className = 'text-2xl font-normal text-white mt-3 mb-5'>Musim Tanam 1 2024</h2>
 
-                    <div className = 'grid grid-cols-7 gap-2 mt-5'>
-                        <button onClick={() => setData('Apel')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Apel</button>
-                        <button onClick={() => setData('Bunga Kol')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Bunga Kol</button>
-                        <button onClick={() => setData('Cabai Rawit')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Cabai Rawit</button>
-                        <button onClick={() => setData('Jagung')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Jagung</button>
-                        <button onClick={() => setData('Jeruk')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Jeruk</button>
-                        <button onClick={() => setData('Seledri')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Seledri</button>
-                        <button onClick={() => setData('Tomat')} className = 'text-white font-medium rounded-lg border border-white py-1 px-2 w-30 focus:bg-tosca focus:border-none'>Tomat</button>
+                    <div className = 'grid grid-cols-7 gap-2 mt-3 w-[830px]'>
+                        <button onClick={() => setData('Apel')} className = {`${data === 'Apel' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Apel</button>
+                        <button onClick={() => setData('Bunga Kol')} className = {`${data === 'Bunga Kol' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Bunga Kol</button>
+                        <button onClick={() => setData('Cabai Rawit')} className = {`${data === 'Cabai Rawit' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Cabai Rawit</button>
+                        <button onClick={() => setData('Jagung')} className = {`${data === 'Jagung' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Jagung</button>
+                        <button onClick={() => setData('Jeruk')} className = {`${data === 'Jeruk' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Jeruk</button>
+                        <button onClick={() => setData('Seledri')} className = {`${data === 'Seledri' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Seledri</button>
+                        <button onClick={() => setData('Tomat')} className = {`${data === 'Tomat' ? 'bg-tosca border-none' : 'bg-none'} text-white font-medium rounded-lg border border-white py-1 px-2`}>Tomat</button>
                     </div>
 
-                    <div className = 'h-80 w-4/5 mt-10 px-8 py-5 bg-white border rounded-lg'>
+                    <div className = 'h-80 w-[700px] mt-10 px-8 py-5 bg-white border rounded-lg'>
                         {data === 'Apel' && <DescPerkebunan data={DataPerkebunan} index={0} />}
                         {data === 'Bunga Kol' && <DescPerkebunan data={DataPerkebunan} index={1} />}
                         {data === 'Cabai Rawit' && <DescPerkebunan data={DataPerkebunan} index={2} />}

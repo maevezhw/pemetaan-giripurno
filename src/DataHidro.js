@@ -9,7 +9,7 @@ const data = [
         title: 'Pemetaan Kawasan Resapan Air',
         img: './Resapan Air.png',
         legend: './Legenda Resapan.png',
-        desc: 'Peta Kawasan Resapan Air merupakan analisis area yang memiliki potensi penyerapan air dari tinggi sampai sangat rendah sehingga untuk bahan perencanaan dan pengelolaan sumber daya air serta konservasi lingkungan.'
+        desc: 'Peta Kawasan Resapan Air memetakan dan menganalisis area yang memiliki potensi penyerapan air dari tinggi sampai sangat rendah sehingga untuk bahan perencanaan dan pengelolaan sumber daya air serta konservasi lingkungan.'
     },
     
 ];

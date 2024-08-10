@@ -29,7 +29,8 @@ function Hidro () {
             </div>
 
             <div className='h-lvh col-span-1 content-center justify-self-center'>
-                <h1 className='text-5xl font-bold text-white mt-1 justify-items-center'>{slides[curr].title}</h1>
+                <p className = 'flex text-white text-xs border rounded-2xl border-white px-4 w-44 text-center h-8 items-center justify-center font-bold'>Kondisi Hidrogeologi</p>
+                <h1 className='text-5xl font-bold text-white mt-5 justify-items-center'>{slides[curr].title}</h1>
             </div>
 
             <div className='h-lvh col-span-1 justify-self-center content-center pt-24'>
