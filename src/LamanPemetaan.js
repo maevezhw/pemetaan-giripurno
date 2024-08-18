@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function Pemetaan() {
     return (
-        <div className="bg-grey font-roboto snap-y snap-mandatory h-lvh overflow-y-scroll scroll-smooth">
+        <div className="bg-grey font-roboto snap-y snap-mandatory min-h-screen h-full overflow-y-scroll scroll-smooth">
             <Header />
             <Nav />
 
