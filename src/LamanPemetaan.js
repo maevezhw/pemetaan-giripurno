@@ -59,7 +59,7 @@ function Pemetaan() {
                 <Hidro />
             </div>
 
-            <div className="snap-start snap-mandatory min-h-screen h-full">
+            <div className="snap-start snap-mandatory">
                 <Footer />
             </div>
         </div>
