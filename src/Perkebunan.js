@@ -7,7 +7,7 @@ function Perkebunan() {
     const [data, setData] = useState('Apel');
 
     return (
-        <div className="bg-kebun-bg px-4 md:px-10 lg:px-20 xl:px-44 py-6 min-h-screen h-full font-roboto">
+        <div className="bg-kebun-bg px-4 md:pl-10 md:pr-5 lg:pl-20 lg:pr-10 xl:pl-44 xl:pr-20 py-6 min-h-screen h-full font-roboto">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-2">
                 <div className="col-span-1 lg:col-span-4 mt-16">
                     <p className="flex text-white text-xs font-bold border rounded-2xl border-white mt-3 w-3/4 md:w-1/2 lg:w-1/3 text-center h-8 items-center justify-center backdrop-blur-xl">Pertanian dan Perkebunan</p>
