@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function Pemetaan() {
     return (
-        <div className="bg-grey font-roboto snap-y snap-mandatory h-lvh overflow-y-scroll scroll-smooth">
+        <div className="bg-grey font-roboto snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
             <Header />
             <Nav />
 
@@ -31,7 +31,7 @@ function Pemetaan() {
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 px-4 md:px-10 lg:px-20 xl:px-44 justify-items-center items-center mb-9">
                     {DataKategori.map((kategori, index) => (
-                        <div key={index} className="relative items-center content-center self-center h-48 w-48 sm:h-56 sm:w-56 md:h-64 md:w-64 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+                        <div key={index} className="relative items-center content-center self-center h-48 w-48 sm:h-56 sm:w-56 md:h-60 md:w-64 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
                             <a href={kategori.link}>
                                 <img src={kategori.img} alt={kategori.title} className="h-full w-full object-cover border rounded-lg"></img>
                                 <div className="absolute inset-0 flex items-center justify-center hover:bg-black hover:bg-opacity-50 hover:rounded-lg">
