@@ -13,7 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         'kebun-bg': "url(/public/Basemap-darken.jpg)",
-        'hidro-bg': "url(/public/Background Hidrogeologis.jpg)",
+        'hidro-bg': "url(/public/bg-hidro.jpg)",
       }, 
       fontFamily: {
         'sans': ['Poppins', 'sans-serif'],
