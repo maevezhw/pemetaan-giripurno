@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function Pemetaan() {
     return (
-        <div className="bg-grey font-roboto snap-y snap-mandatory min-h-screen h-full overflow-y-scroll scroll-smooth">
+        <div className="bg-grey font-roboto snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
             <Header />
             <Nav />
 
@@ -43,19 +43,19 @@ function Pemetaan() {
                 </div>
             </div>
 
-            <div className="snap-start snap-mandatory min-h-screen h-full" id="kebun">
+            <div className="snap-start snap-mandatory min-h-screen" id="kebun">
                 <Perkebunan />
             </div>
 
-            <div className="snap-start snap-mandatory min-h-screen h-full" id="hutan">
+            <div className="snap-start snap-mandatory min-h-screen" id="hutan">
                 <Hutan />
             </div>
 
-            <div className="snap-start snap-mandatory min-h-screen h-full" id="bencana">
+            <div className="snap-start snap-mandatory min-h-screen" id="bencana">
                 <Bencana />
             </div>
 
-            <div className="snap-start snap-mandatory min-h-screen h-full" id="hidro">
+            <div className="snap-start snap-mandatory min-h-screen" id="hidro">
                 <Hidro />
             </div>
 
@@ -67,6 +67,7 @@ function Pemetaan() {
 }
 
 export default Pemetaan;
+
 
 // import Header from './Header';
 // import Nav from './Nav';
